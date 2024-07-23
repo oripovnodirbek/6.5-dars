@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background-color: grey;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.todo-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(25, 96, 6);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.todo-card button {
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-right: -19px;
+    
+}
+.todo-card button:hover {
+    background-color: rgb(106, 19, 19);
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+}
